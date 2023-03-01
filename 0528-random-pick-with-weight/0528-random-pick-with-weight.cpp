@@ -3,9 +3,9 @@ class Solution {
 public:
     
     Solution(vector<int>& w) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
-        cout.tie(NULL);
+        // ios_base::sync_with_stdio(false);
+        // cin.tie(NULL);
+        // cout.tie(NULL);
         v.push_back(w[0]);
         for(int i=1; i<w.size(); i++){
             v.push_back(v.back()+w[i]);
